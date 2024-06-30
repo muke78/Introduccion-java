@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jScrollPane1" min="-2" pref="667" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="638" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="99" red="0" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="&#xbf;Que es?&#xa;&#xa;Las reacciones de oxidaci&#xf3;n-reducci&#xf3;n forman una parte importante del mundo que nos rodea. Abarcan desde la combusti&#xf3;n de combustibles f&#xf3;siles hasta la acci&#xf3;n de los blanqueadores de ropa dom&#xe9;sticos. Asimismo, la mayor&#xed;a de los elementos met&#xe1;licos y no met&#xe1;licos se obtienen de sus minerales por procesos de oxidaci&#xf3;n o de reducci&#xf3;n. Hay muchos fen&#xf3;menos que se dan a tu alrededor y en tu propio cuerpo relacionados con la qu&#xed;mica de los procesos de oxidaci&#xf3;n y reducci&#xf3;n.&#xa;&#xa;&#xa;&#xa;&#xa;&#xbf;Por qu&#xe9; tenemos que equilibrar la reacci&#xf3;n qu&#xed;mica?&#xa;&#xa;La ecuaci&#xf3;n qu&#xed;mica equilibrada describe exactamente las cantidades de los reactantes y productos en una reacci&#xf3;n qu&#xed;mica.Para que una ecuaci&#xf3;n est&#xe9; equilibrada, las sumas de las cargas el&#xe9;ctricas en ambos lados tienen que ser id&#xe9;nticas.&#xa;&#xa;&#xa;&#xa;&#xa;Instrucciones para equilibrar las ecuaciones redox&#xa;&#xa;Paso 1. Se escribe una reacci&#xf3;n desequilibrada&#xa;Paso 2. Se desmonta la reacci&#xf3;n redox a las reacciones parciales&#xa;a) Se determinan los n&#xfa;meros de la oxidaci&#xf3;n de cada &#xe1;tomo respectivo.&#xa;b) Se identifican los pares redox en la reacci&#xf3;n&#xa;c) Se combinan los pares redox en dos reacciones parciales&#xa;Paso 3. Se equilibran los &#xe1;tomos en las ecuaciones parciales&#xa;a) Se equilibran todos los &#xe1;tomos excepto del H y del O&#xa;b) Se equilibran las cargas a&#xf1;adiendo H+ o OH-&#xa;b) Se equilibran los &#xe1;tomos del ox&#xed;geno a&#xf1;adiendo H2O&#xa;Paso 4: Se iguala el n&#xfa;mero de los electrones perdidos y recibidos en las reacciones parciales&#xa;Paso 5: Se suman las ecuaciones parciales&#xa;Paso 6: Se acorta la ecuaci&#xf3;n&#xa;Y al final, siempre se verifica el equilibrio de las cargas y de los elementos"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

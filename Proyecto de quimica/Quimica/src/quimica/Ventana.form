@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="0" pref="751" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jScrollPane1" alignment="1" pref="714" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="cc" red="0" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Indica la manera en la cual los electrones se estructuran, comunican u organizan en un &#xe1;tomo de acuerdo con el modelo de capas electr&#xf3;nicas, en el cual las funciones de ondas del sistema se expresan como un producto de orbitales antisimetrizado.&#xa;La configuraci&#xf3;n electr&#xf3;nica es importante, ya que determina las propiedades de combinaci&#xf3;n qu&#xed;mica de los &#xe1;tomos y por lo tanto su posici&#xf3;n en la tabla peri&#xf3;dica de los elementos.&#xa;&#xa;- N&#xfa;mero cu&#xe1;ntico principal (n)&#xa;Especifica el nivel energ&#xe9;tico del orbital, siendo el primer nivel el de menor energ&#xed;a, y se relaciona con la distancia promedio que hay del electr&#xf3;n al n&#xfa;cleo en un determinado orbital. A medida que n aumenta, la probabilidad de encontrar el electr&#xf3;n cerca del n&#xfa;cleo disminuye y la energ&#xed;a del orbital aumenta.&#xa;Puede tomar los valores enteros positivos: n= 1, 2, 3, 4, 5, 6, 7.&#xa;&#xa;- N&#xfa;mero cu&#xe1;ntico secundario (&#x2113;)&#xa;Tambi&#xe9;n es conocido como el n&#xfa;mero cu&#xe1;ntico del momento angular orbital o n&#xfa;mero cu&#xe1;ntico azimutal y se simboliza como &#x2113; (L min&#xfa;scula).&#xa;Describe la forma geom&#xe9;trica del orbital. Los valores de l  dependen del n&#xfa;mero cu&#xe1;ntico principal. Puede tomar los valores desde &#x2113; = 0 hasta &#x2113; =n-1. Por ejemplo:&#xa;si n = 2 ; &#x2113; = 0, 1.&#xa;si n = 4 ; &#x2113; = 0, 1, 2, 3.&#xa;&#xa;- N&#xfa;mero Cu&#xe1;ntico magn&#xe9;tico (m)&#xa;Indica la orientaci&#xf3;n del orbital en el espacio. Puede tomar valores entre:&#xa;- &#x2113;...0...+&#x2113;&#xa;Solo pueden tomar valores enteros que van desde &#x2013;3 hasta +3, incluyendo el cero.&#xa; En resumen:&#xa;Para el subnivel s : m = 0&#xa;Para el subnivel p : m = &#x2013;1 , 0 , +1&#xa;Para el subnivel d : m = &#x2013;2 , &#x2013;1 , 0 , +1 , +2&#xa;Para el subnivel f : m = &#x2013;3 , &#x2013;2 , &#x2013;1 , 0 , +1 , +2 ,+3&#xa;&#xa;- N&#xfa;mero cu&#xe1;ntico de esp&#xed;n (s)&#xa;El electr&#xf3;n posee su propio n&#xfa;mero cu&#xe1;ntico que da a conocer el sentido de rotaci&#xf3;n del electr&#xf3;n en torno a su eje cuando se mueve dentro de un orbital. &#xa;El electr&#xf3;n solo tiene dos posibles sentidos de giro, por lo que se puede tomar valores +1/2 o  -1/2 . Cada orbital puede albergar un m&#xe1;ximo de dos electrones con espines diferentes.&#xa;&#xa;- Peso Atomico:&#xa;Es una cantidad f&#xed;sica adimensional, definida como la raz&#xf3;n del promedio de las masas de los &#xe1;tomos de un elemento&#xa;&#xa;- Grupo y Familia:&#xa;Los miembros de una misma familia o grupo (misma columna vertical) en la tabla peri&#xf3;dica tienen propiedades similares.&#xa;&#xa;- Numero Atomico:&#xa;Es un elemento qu&#xed;mico es el n&#xfa;mero total de protones que tiene cada &#xe1;tomo de ese elemento. Se suele representar con la letra Z.&#xa;Los &#xe1;tomos de diferentes elementos tienen distintos n&#xfa;meros de electrones y protones. Un &#xe1;tomo en su estado natural es neutro y tiene un n&#xfa;mero igual de electrones y protones.&#xa;&#xa;- Periodo:&#xa;En la tabla peri&#xf3;dica los elementos est&#xe1;n ordenados de forma que aquellos con propiedades qu&#xed;micas semejantes, se encuentren situados cerca uno de otro.&#xa;Los elementos se distribuyen en filas horizontales, llamadas per&#xed;odos. Pero los periodos no son todos iguales, sino que el n&#xfa;mero de elementos que contienen va cambiando, aumentando al bajar en la tabla peri&#xf3;dica. &#xa;&#xa;- Estado:&#xa;Se observa que, para cualquier sustancia o mezcla, modificando sus condiciones de temperatura o presi&#xf3;n, pueden obtenerse distintos estados o fases, denominados estados de agregaci&#xf3;n de la materia, en relaci&#xf3;n con las fuerzas de uni&#xf3;n de las part&#xed;culas (mol&#xe9;culas, &#xe1;tomos o iones) que la constituyen.&#xa;"/>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder title="Conoce mas sobre la configuracion electronica"/>
+              </Border>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
